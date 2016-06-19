@@ -51,7 +51,7 @@ namespace Jint
         public Engine(Action<Options> options)
         {
             _executionContexts = new Stack<ExecutionContext>();
-
+            //added a test to my branch
             Global = GlobalObject.CreateGlobalObject(this);
 
             Object = ObjectConstructor.CreateObjectConstructor(this);
